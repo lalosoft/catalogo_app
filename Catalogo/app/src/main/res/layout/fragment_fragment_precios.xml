@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="54dp"
+    android:paddingRight="54dp"
+    tools:context="com.delta.catalogo.FragmentPrecios">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:scrollbars="none"
+        android:id="@+id/listV_precios"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

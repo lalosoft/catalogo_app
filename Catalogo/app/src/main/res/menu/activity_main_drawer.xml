@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Inicio"
+            android:icon="@drawable/home"
+            android:title="@string/nav_str_Inicio" />
+        <item
+            android:id="@+id/nav_Todos"
+            android:icon="@drawable/icon_products"
+            android:title="@string/nav_str_Todos"/>
+        <item
+            android:id="@+id/nav_grupos"
+            android:icon="@drawable/folder"
+            android:title="@string/nav_str_Grupos" />
+        <!--item
+            android:id="@+id/nav_precios"
+            android:icon="@drawable/ic_dinero"
+            android:title="@string/nav_str_Precios" /-->
+
+        <item
+            android:id="@+id/nav_nuevos"
+            android:icon="@drawable/ic_nuevos"
+            android:title="@string/nav_str_Nuevos"/>
+    </group>
+
+    <item android:title="@string/title_str_Medic">
+        <menu>
+            <item
+                android:id="@+id/nav_laboratorio"
+                android:icon="@drawable/icon_lab"
+                android:title="@string/nav_str_Labs" />
+            <item
+                android:id="@+id/nav_sustancia"
+                android:icon="@drawable/icon_sust"
+                android:title="@string/nav_str_Sust" />
+        </menu>
+    </item>
+
+</menu>

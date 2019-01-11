@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:paddingLeft="54dp"
+    android:paddingRight="54dp"
+    android:layout_width="380dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="375dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="9dp"
+        card_view:cardBackgroundColor="#009"
+        card_view:cardUseCompatPadding="true"
+        android:foreground="?selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imagen"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop" />
+
+            <View
+                android:layout_width="250dp"
+                android:layout_height="2dp"
+                android:id="@+id/linea"
+                android:layout_below="@+id/imagen"
+                android:background="#fff"/>
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Large Text"
+                android:textColor="#fff"
+                android:layout_below="@+id/imagen"
+                android:layout_alignParentTop="false"
+                android:paddingTop="7dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/clave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:layout_below="@+id/nombre"
+                android:layout_alignLeft="@+id/nombre"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:layout_below="@+id/clave"
+                android:layout_alignLeft="@+id/clave"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/present"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:layout_below="@+id/lab"
+                android:layout_alignLeft="@+id/lab"
+                android:textColor="#fff"/>
+
+            <!--<android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/linea"
+                card_view:cardBackgroundColor="#fff"
+                card_view:cardCornerRadius="20dp"
+                card_view:cardElevation="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                <TextView
+                    android:id="@+id/precio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#fff"
+                    android:text="$0.00"
+                    android:gravity="center"/>
+            </android.support.v7.widget.CardView-->
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

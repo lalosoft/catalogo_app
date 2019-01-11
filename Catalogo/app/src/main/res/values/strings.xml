@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Catalogo de Productos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- STRINGS DEL MENU LATERAL-->
+
+    <string name="nav_str_Inicio">Inicio</string>
+    <string name="nav_str_Todos">Todos los Productos</string>
+    <string name="nav_str_Grupos">Grupos</string>
+    <string name="nav_str_Precios">Precios</string>
+    <string name="nav_str_Nuevos">Nuevos</string>
+    <string name="title_str_Medic">Medicamentos</string>
+    <string name="nav_str_Labs">Laboratorios</string>
+    <string name="nav_str_Sust">Sustancias</string>
+
+    <!--STRINGS DEL MENU HEADER -->
+
+    <string name="hdr_title">Farmacéutica Delta</string>
+    <string name="hdr_subTitle">Catálogo de Productos</string>
+</resources>
